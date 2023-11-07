@@ -18,6 +18,29 @@
     box-shadow: -7px 0px 20px 4px black;
 }
 
+img{
+    margin: 3%;
+    background-color: rgba(135, 66, 66, 0.0);
+    width: 25%;
+    margin-left: 10%;
+}
+
+.logo{
+    width: 100%;
+    margin-top: 24%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 21%;
+    display: flex;
+}
+
+.logoOdin{
+    background-color: rgba(90, 90, 90, 0.0);
+    font-size: 86px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 8%;
+    color: aliceblue;
+}
+
 .container-right {
     width: 65%;
     box-shadow: 7px 0px 20px 4px black;
@@ -27,16 +50,14 @@
 .header {
     margin-top: 1%;
     height: 25%;
-    background-color: rgb(60, 60, 60);
-    
+    background-color: rgb(60, 60, 60);    
 }
 
 .text {
     margin-right: 20%;
     position: static;
     font-size: 20px;
-    margin-left: 3%;
-    
+    margin-left: 3%;    
     margin-top: 5%;
 
 }
@@ -51,6 +72,8 @@
 
 .section {
     height: 35%;
+    position: relative;
+    box-shadow: 1px 0px 10px 0px black;
 }
 
 .sectionText {
@@ -74,8 +97,9 @@ input {
     padding: 3px;
 }
 
-input:active{
-    background-color: white;
+input:focus{
+    border: 1px solid rgb(77, 77, 77);
+    background-color: rgb(90, 90, 90);
 }
 
 .divInput1 {
@@ -114,6 +138,7 @@ a{
     border: 3px solid blueviolet;
     background-color: rgb(60, 60, 60);
     margin: 3%;
+    margin-top: 4%;
     padding: 20px;
     border-radius: 10px;
     font-size: 15px;
@@ -131,6 +156,7 @@ a{
     cursor: pointer;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    margin-top: 4%;
 }
 
 em{
